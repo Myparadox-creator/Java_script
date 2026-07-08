@@ -31,3 +31,16 @@ const myfunction = function(){
 
 console.log(typeof myfunction)
 console.log(typeof bigNumber)
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//     stsck(primitive) heap(reference)
+
+let Myname = "Mr x"
+
+let anothername = Myname
+
+anothername = "MR Y"
+
+console.log(anothername);
+console.log(Myname);
