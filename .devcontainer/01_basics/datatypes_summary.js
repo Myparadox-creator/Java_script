@@ -44,3 +44,14 @@ anothername = "MR Y"
 
 console.log(anothername);
 console.log(Myname);
+
+let user = {
+    email: "user@example.com",
+    upi: "user@upi"
+}
+
+let usertwo = user
+usertwo.email = "adityaranjn@example.com"
+
+console.log(user.email)
+console.log(usertwo.email)
