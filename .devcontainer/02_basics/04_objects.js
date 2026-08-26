@@ -59,5 +59,40 @@ console.log(Object.entries(googleuser))
 
 console.log(googleuser.hasOwnProperty('isLoggIn'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor: dfs} = course
+
+console.log(dfs);
+
+/*
+
+JSON format
+{
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}*/
+
+/*{
+    "coursename": "js in hindi",
+    "price": "999",
+    "courseInstructor": "Hitesh"
+}*/
+
+/*[
+    {},
+    {},
+]*/
+
+
+
+
+
+
 
 
